@@ -1,0 +1,16 @@
+crop,horizon,test_days,model_mape_pct,model_mae,baseline_a_mape_pct,baseline_b_mape_pct,best_baseline,best_baseline_mape_pct,improvement_pct,direction_accuracy_pct,beats_baseline,use_baseline,confidence,wf_avg_mape_pct,wf_avg_dir_acc_pct
+Green Chilli,1d,284,5.45,165.98,4.82,7.54,Baseline A (Stays same),4.82,-13.01,52.46,False,True,Low,8.04,52.03
+Green Chilli,7d,260,12.54,386.11,12.97,13.47,Baseline A (Stays same),12.97,3.36,54.23,True,False,Low,15.74,61.91
+Green Chilli,14d,239,13.83,439.31,15.41,15.1,Baseline B (14d Moving Avg),15.1,8.43,62.76,True,False,Medium,17.22,68.32
+Potato,1d,284,5.92,65.75,5.08,6.81,Baseline A (Stays same),5.08,-16.43,51.06,False,True,Low,5.67,42.66
+Potato,7d,260,12.39,139.19,9.53,9.7,Baseline A (Stays same),9.53,-29.93,54.62,False,True,Low,12.02,52.96
+Potato,14d,235,12.36,133.27,11.65,11.46,Baseline B (14d Moving Avg),11.46,-7.84,68.94,False,True,Low,14.58,58.65
+Rice,1d,284,0.63,21.16,0.34,0.76,Baseline A (Stays same),0.34,-86.16,22.54,False,True,Low,1.03,22.81
+Rice,7d,256,1.15,38.52,1.16,1.43,Baseline A (Stays same),1.16,0.38,37.5,True,False,Low,1.92,37.46
+Rice,14d,230,1.72,57.02,1.54,1.76,Baseline A (Stays same),1.54,-11.12,39.57,False,True,Low,2.17,34.45
+Tomato,1d,284,9.57,149.92,9.55,12.47,Baseline A (Stays same),9.55,-0.22,52.46,False,True,Low,11.38,49.48
+Tomato,7d,260,20.46,363.68,17.96,19.15,Baseline A (Stays same),17.96,-13.91,49.62,False,True,Low,25.81,56.52
+Tomato,14d,239,26.57,451.43,23.93,27.12,Baseline A (Stays same),23.93,-11.02,46.03,False,True,Low,36.48,56.36
+Wheat,1d,290,1.33,34.34,1.31,2.26,Baseline A (Stays same),1.31,-1.41,35.52,False,True,Low,1.58,39.02
+Wheat,7d,266,2.98,76.82,3.25,3.56,Baseline A (Stays same),3.25,8.28,50.38,True,False,Medium,3.11,54.89
+Wheat,14d,240,3.82,96.58,3.64,3.88,Baseline A (Stays same),3.64,-4.99,51.25,False,True,Low,3.66,56.87

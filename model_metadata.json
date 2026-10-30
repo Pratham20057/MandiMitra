@@ -1,0 +1,1157 @@
+{
+  "Green Chilli_1d": {
+    "crop": "Green Chilli",
+    "market": "Ghaziabad",
+    "horizon_days": 1,
+    "model_file": "models/green_chilli_1d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-12-05",
+    "test_days": 284,
+    "test_mape": 5.45,
+    "baseline_a_mape": 4.82,
+    "baseline_b_mape": 7.54,
+    "best_baseline_mape": 4.82,
+    "improvement_pct": -13.01,
+    "direction_accuracy": 52.46,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -234.1,
+      "price_q90": 253.7,
+      "log_q10": -0.0923,
+      "log_q90": 0.076
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 8.04,
+      "wf_avg_dir_acc": 52.03,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1457,
+          "test_days": 261,
+          "mape": 10.51,
+          "dir_acc": 45.59
+        },
+        {
+          "fold": 2,
+          "train_days": 1718,
+          "test_days": 261,
+          "mape": 8.05,
+          "dir_acc": 51.72
+        },
+        {
+          "fold": 3,
+          "train_days": 1979,
+          "test_days": 262,
+          "mape": 5.56,
+          "dir_acc": 58.78
+        }
+      ]
+    }
+  },
+  "Green Chilli_7d": {
+    "crop": "Green Chilli",
+    "market": "Ghaziabad",
+    "horizon_days": 7,
+    "model_file": "models/green_chilli_7d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-11-06",
+    "test_days": 260,
+    "test_mape": 12.54,
+    "baseline_a_mape": 12.97,
+    "baseline_b_mape": 13.47,
+    "best_baseline_mape": 12.97,
+    "improvement_pct": 3.36,
+    "direction_accuracy": 54.23,
+    "confidence": "Low",
+    "use_baseline": false,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -735.42,
+      "price_q90": 655.38,
+      "log_q10": -0.228,
+      "log_q90": 0.1828
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 15.74,
+      "wf_avg_dir_acc": 61.91,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1280,
+          "test_days": 231,
+          "mape": 18.24,
+          "dir_acc": 63.64
+        },
+        {
+          "fold": 2,
+          "train_days": 1511,
+          "test_days": 231,
+          "mape": 17.22,
+          "dir_acc": 61.47
+        },
+        {
+          "fold": 3,
+          "train_days": 1742,
+          "test_days": 231,
+          "mape": 11.75,
+          "dir_acc": 60.61
+        }
+      ]
+    }
+  },
+  "Green Chilli_14d": {
+    "crop": "Green Chilli",
+    "market": "Ghaziabad",
+    "horizon_days": 14,
+    "model_file": "models/green_chilli_14d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-10-30",
+    "test_days": 239,
+    "test_mape": 13.83,
+    "baseline_a_mape": 15.41,
+    "baseline_b_mape": 15.1,
+    "best_baseline_mape": 15.1,
+    "improvement_pct": 8.43,
+    "direction_accuracy": 62.76,
+    "confidence": "Medium",
+    "use_baseline": false,
+    "best_baseline_strategy": "moving_average",
+    "residual_quantiles": {
+      "price_q10": -538.35,
+      "price_q90": 766.44,
+      "log_q10": -0.1973,
+      "log_q90": 0.2225
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 17.22,
+      "wf_avg_dir_acc": 68.32,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1148,
+          "test_days": 208,
+          "mape": 21.69,
+          "dir_acc": 70.67
+        },
+        {
+          "fold": 2,
+          "train_days": 1356,
+          "test_days": 208,
+          "mape": 16.82,
+          "dir_acc": 68.75
+        },
+        {
+          "fold": 3,
+          "train_days": 1564,
+          "test_days": 209,
+          "mape": 13.14,
+          "dir_acc": 65.55
+        }
+      ]
+    }
+  },
+  "Potato_1d": {
+    "crop": "Potato",
+    "market": "Ghaziabad",
+    "horizon_days": 1,
+    "model_file": "models/potato_1d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-12-05",
+    "test_days": 284,
+    "test_mape": 5.92,
+    "baseline_a_mape": 5.08,
+    "baseline_b_mape": 6.81,
+    "best_baseline_mape": 5.08,
+    "improvement_pct": -16.43,
+    "direction_accuracy": 51.06,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -109.39,
+      "price_q90": 54.29,
+      "log_q10": -0.0979,
+      "log_q90": 0.0465
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 5.67,
+      "wf_avg_dir_acc": 42.66,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1454,
+          "test_days": 261,
+          "mape": 5.21,
+          "dir_acc": 35.25
+        },
+        {
+          "fold": 2,
+          "train_days": 1715,
+          "test_days": 261,
+          "mape": 5.4,
+          "dir_acc": 41.76
+        },
+        {
+          "fold": 3,
+          "train_days": 1976,
+          "test_days": 261,
+          "mape": 6.41,
+          "dir_acc": 50.96
+        }
+      ]
+    }
+  },
+  "Potato_7d": {
+    "crop": "Potato",
+    "market": "Ghaziabad",
+    "horizon_days": 7,
+    "model_file": "models/potato_7d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-11-06",
+    "test_days": 260,
+    "test_mape": 12.39,
+    "baseline_a_mape": 9.53,
+    "baseline_b_mape": 9.7,
+    "best_baseline_mape": 9.53,
+    "improvement_pct": -29.93,
+    "direction_accuracy": 54.62,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -306.86,
+      "price_q90": 79.41,
+      "log_q10": -0.2363,
+      "log_q90": 0.0729
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 12.02,
+      "wf_avg_dir_acc": 52.96,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1278,
+          "test_days": 230,
+          "mape": 11.16,
+          "dir_acc": 53.04
+        },
+        {
+          "fold": 2,
+          "train_days": 1508,
+          "test_days": 230,
+          "mape": 13.75,
+          "dir_acc": 48.7
+        },
+        {
+          "fold": 3,
+          "train_days": 1738,
+          "test_days": 231,
+          "mape": 11.16,
+          "dir_acc": 57.14
+        }
+      ]
+    }
+  },
+  "Potato_14d": {
+    "crop": "Potato",
+    "market": "Ghaziabad",
+    "horizon_days": 14,
+    "model_file": "models/potato_14d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-10-30",
+    "test_days": 235,
+    "test_mape": 12.36,
+    "baseline_a_mape": 11.65,
+    "baseline_b_mape": 11.46,
+    "best_baseline_mape": 11.46,
+    "improvement_pct": -7.84,
+    "direction_accuracy": 68.94,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "moving_average",
+    "residual_quantiles": {
+      "price_q10": -264.15,
+      "price_q90": 75.58,
+      "log_q10": -0.2281,
+      "log_q90": 0.0779
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 14.58,
+      "wf_avg_dir_acc": 58.65,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1146,
+          "test_days": 208,
+          "mape": 12.54,
+          "dir_acc": 58.65
+        },
+        {
+          "fold": 2,
+          "train_days": 1354,
+          "test_days": 208,
+          "mape": 15.19,
+          "dir_acc": 51.44
+        },
+        {
+          "fold": 3,
+          "train_days": 1562,
+          "test_days": 208,
+          "mape": 16.01,
+          "dir_acc": 65.87
+        }
+      ]
+    }
+  },
+  "Rice_1d": {
+    "crop": "Rice",
+    "market": "Ghaziabad",
+    "horizon_days": 1,
+    "model_file": "models/rice_1d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-12-05",
+    "test_days": 284,
+    "test_mape": 0.63,
+    "baseline_a_mape": 0.34,
+    "baseline_b_mape": 0.76,
+    "best_baseline_mape": 0.34,
+    "improvement_pct": -86.16,
+    "direction_accuracy": 22.54,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -37.93,
+      "price_q90": 20.73,
+      "log_q10": -0.0113,
+      "log_q90": 0.0062
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 1.03,
+      "wf_avg_dir_acc": 22.81,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1482,
+          "test_days": 266,
+          "mape": 1.21,
+          "dir_acc": 14.29
+        },
+        {
+          "fold": 2,
+          "train_days": 1748,
+          "test_days": 266,
+          "mape": 1.1,
+          "dir_acc": 32.33
+        },
+        {
+          "fold": 3,
+          "train_days": 2014,
+          "test_days": 266,
+          "mape": 0.79,
+          "dir_acc": 21.8
+        }
+      ]
+    }
+  },
+  "Rice_7d": {
+    "crop": "Rice",
+    "market": "Ghaziabad",
+    "horizon_days": 7,
+    "model_file": "models/rice_7d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-11-06",
+    "test_days": 256,
+    "test_mape": 1.15,
+    "baseline_a_mape": 1.16,
+    "baseline_b_mape": 1.43,
+    "best_baseline_mape": 1.16,
+    "improvement_pct": 0.38,
+    "direction_accuracy": 37.5,
+    "confidence": "Low",
+    "use_baseline": false,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -55.45,
+      "price_q90": 66.28,
+      "log_q10": -0.0164,
+      "log_q90": 0.0196
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 1.92,
+      "wf_avg_dir_acc": 37.46,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1298,
+          "test_days": 234,
+          "mape": 2.02,
+          "dir_acc": 23.5
+        },
+        {
+          "fold": 2,
+          "train_days": 1532,
+          "test_days": 234,
+          "mape": 2.53,
+          "dir_acc": 49.15
+        },
+        {
+          "fold": 3,
+          "train_days": 1766,
+          "test_days": 234,
+          "mape": 1.21,
+          "dir_acc": 39.74
+        }
+      ]
+    }
+  },
+  "Rice_14d": {
+    "crop": "Rice",
+    "market": "Ghaziabad",
+    "horizon_days": 14,
+    "model_file": "models/rice_14d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-10-30",
+    "test_days": 230,
+    "test_mape": 1.72,
+    "baseline_a_mape": 1.54,
+    "baseline_b_mape": 1.76,
+    "best_baseline_mape": 1.54,
+    "improvement_pct": -11.12,
+    "direction_accuracy": 39.57,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -69.57,
+      "price_q90": 80.63,
+      "log_q10": -0.0209,
+      "log_q90": 0.0241
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 2.17,
+      "wf_avg_dir_acc": 34.45,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1157,
+          "test_days": 210,
+          "mape": 2.15,
+          "dir_acc": 16.67
+        },
+        {
+          "fold": 2,
+          "train_days": 1367,
+          "test_days": 210,
+          "mape": 2.76,
+          "dir_acc": 49.05
+        },
+        {
+          "fold": 3,
+          "train_days": 1577,
+          "test_days": 210,
+          "mape": 1.6,
+          "dir_acc": 37.62
+        }
+      ]
+    }
+  },
+  "Tomato_1d": {
+    "crop": "Tomato",
+    "market": "Ghaziabad",
+    "horizon_days": 1,
+    "model_file": "models/tomato_1d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-12-05",
+    "test_days": 284,
+    "test_mape": 9.57,
+    "baseline_a_mape": 9.55,
+    "baseline_b_mape": 12.47,
+    "best_baseline_mape": 9.55,
+    "improvement_pct": -0.22,
+    "direction_accuracy": 52.46,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -135.16,
+      "price_q90": 220.87,
+      "log_q10": -0.1182,
+      "log_q90": 0.1153
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 11.38,
+      "wf_avg_dir_acc": 49.48,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1452,
+          "test_days": 260,
+          "mape": 13.35,
+          "dir_acc": 46.92
+        },
+        {
+          "fold": 2,
+          "train_days": 1712,
+          "test_days": 260,
+          "mape": 10.1,
+          "dir_acc": 48.46
+        },
+        {
+          "fold": 3,
+          "train_days": 1972,
+          "test_days": 262,
+          "mape": 10.7,
+          "dir_acc": 53.05
+        }
+      ]
+    }
+  },
+  "Tomato_7d": {
+    "crop": "Tomato",
+    "market": "Ghaziabad",
+    "horizon_days": 7,
+    "model_file": "models/tomato_7d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-11-06",
+    "test_days": 260,
+    "test_mape": 20.46,
+    "baseline_a_mape": 17.96,
+    "baseline_b_mape": 19.15,
+    "best_baseline_mape": 17.96,
+    "improvement_pct": -13.91,
+    "direction_accuracy": 49.62,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -471.2,
+      "price_q90": 769.56,
+      "log_q10": -0.2877,
+      "log_q90": 0.2989
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 25.81,
+      "wf_avg_dir_acc": 56.52,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1275,
+          "test_days": 230,
+          "mape": 34.66,
+          "dir_acc": 55.65
+        },
+        {
+          "fold": 2,
+          "train_days": 1505,
+          "test_days": 230,
+          "mape": 20.43,
+          "dir_acc": 63.04
+        },
+        {
+          "fold": 3,
+          "train_days": 1735,
+          "test_days": 230,
+          "mape": 22.34,
+          "dir_acc": 50.87
+        }
+      ]
+    }
+  },
+  "Tomato_14d": {
+    "crop": "Tomato",
+    "market": "Ghaziabad",
+    "horizon_days": 14,
+    "model_file": "models/tomato_14d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-10-30",
+    "test_days": 239,
+    "test_mape": 26.57,
+    "baseline_a_mape": 23.93,
+    "baseline_b_mape": 27.12,
+    "best_baseline_mape": 23.93,
+    "improvement_pct": -11.02,
+    "direction_accuracy": 46.03,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -657.61,
+      "price_q90": 840.67,
+      "log_q10": -0.3705,
+      "log_q90": 0.3248
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 36.48,
+      "wf_avg_dir_acc": 56.36,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1140,
+          "test_days": 207,
+          "mape": 45.76,
+          "dir_acc": 65.7
+        },
+        {
+          "fold": 2,
+          "train_days": 1347,
+          "test_days": 207,
+          "mape": 23.47,
+          "dir_acc": 58.94
+        },
+        {
+          "fold": 3,
+          "train_days": 1554,
+          "test_days": 207,
+          "mape": 40.2,
+          "dir_acc": 44.44
+        }
+      ]
+    }
+  },
+  "Wheat_1d": {
+    "crop": "Wheat",
+    "market": "Ghaziabad",
+    "horizon_days": 1,
+    "model_file": "models/wheat_1d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-12-05",
+    "test_days": 290,
+    "test_mape": 1.33,
+    "baseline_a_mape": 1.31,
+    "baseline_b_mape": 2.26,
+    "best_baseline_mape": 1.31,
+    "improvement_pct": -1.41,
+    "direction_accuracy": 35.52,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -65.58,
+      "price_q90": 45.35,
+      "log_q10": -0.0271,
+      "log_q90": 0.016
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 1.58,
+      "wf_avg_dir_acc": 39.02,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1486,
+          "test_days": 266,
+          "mape": 1.73,
+          "dir_acc": 42.11
+        },
+        {
+          "fold": 2,
+          "train_days": 1752,
+          "test_days": 266,
+          "mape": 1.48,
+          "dir_acc": 42.86
+        },
+        {
+          "fold": 3,
+          "train_days": 2018,
+          "test_days": 268,
+          "mape": 1.53,
+          "dir_acc": 32.09
+        }
+      ]
+    }
+  },
+  "Wheat_7d": {
+    "crop": "Wheat",
+    "market": "Ghaziabad",
+    "horizon_days": 7,
+    "model_file": "models/wheat_7d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-11-06",
+    "test_days": 266,
+    "test_mape": 2.98,
+    "baseline_a_mape": 3.25,
+    "baseline_b_mape": 3.56,
+    "best_baseline_mape": 3.25,
+    "improvement_pct": 8.28,
+    "direction_accuracy": 50.38,
+    "confidence": "Medium",
+    "use_baseline": false,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -125.72,
+      "price_q90": 113.36,
+      "log_q10": -0.051,
+      "log_q90": 0.0428
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 3.11,
+      "wf_avg_dir_acc": 54.89,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1305,
+          "test_days": 235,
+          "mape": 3.04,
+          "dir_acc": 59.15
+        },
+        {
+          "fold": 2,
+          "train_days": 1540,
+          "test_days": 235,
+          "mape": 3.36,
+          "dir_acc": 56.17
+        },
+        {
+          "fold": 3,
+          "train_days": 1775,
+          "test_days": 235,
+          "mape": 2.93,
+          "dir_acc": 49.36
+        }
+      ]
+    }
+  },
+  "Wheat_14d": {
+    "crop": "Wheat",
+    "market": "Ghaziabad",
+    "horizon_days": 14,
+    "model_file": "models/wheat_14d.joblib",
+    "feature_list": [
+      "ret_lag_1",
+      "ret_lag_2",
+      "ret_lag_3",
+      "ret_lag_5",
+      "ret_lag_7",
+      "ret_lag_10",
+      "ret_lag_14",
+      "ret_lag_21",
+      "ret_lag_28",
+      "ret_lag_56",
+      "dist_mean_7",
+      "dist_mean_14",
+      "dist_mean_30",
+      "dist_mean_60",
+      "dist_mean_90",
+      "vol_14",
+      "vol_30",
+      "dist_high_30",
+      "dist_low_30",
+      "range_pos_30",
+      "sin_doy",
+      "cos_doy",
+      "month",
+      "weekday",
+      "ret_1y"
+    ],
+    "last_training_date": "2025-10-30",
+    "test_days": 240,
+    "test_mape": 3.82,
+    "baseline_a_mape": 3.64,
+    "baseline_b_mape": 3.88,
+    "best_baseline_mape": 3.64,
+    "improvement_pct": -4.99,
+    "direction_accuracy": 51.25,
+    "confidence": "Low",
+    "use_baseline": true,
+    "best_baseline_strategy": "stays_same",
+    "residual_quantiles": {
+      "price_q10": -237.82,
+      "price_q90": 94.57,
+      "log_q10": -0.0943,
+      "log_q90": 0.0368
+    },
+    "walk_forward_cv": {
+      "wf_avg_mape": 3.66,
+      "wf_avg_dir_acc": 56.87,
+      "fold_results": [
+        {
+          "fold": 1,
+          "train_days": 1164,
+          "test_days": 211,
+          "mape": 3.67,
+          "dir_acc": 58.77
+        },
+        {
+          "fold": 2,
+          "train_days": 1375,
+          "test_days": 211,
+          "mape": 3.75,
+          "dir_acc": 63.98
+        },
+        {
+          "fold": 3,
+          "train_days": 1586,
+          "test_days": 211,
+          "mape": 3.57,
+          "dir_acc": 47.87
+        }
+      ]
+    }
+  }
+}
